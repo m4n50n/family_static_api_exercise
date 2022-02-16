@@ -23,11 +23,11 @@ def has_no_empty_params(rule):
 def generate_sitemap(app):
     return """
         <div style="text-align: left;">
-        <strong>This is the API home</strong>. Specify a real endpoint path like:
+        <strong>This is the API home</strong>. You can run a new request (from <strong>Postman</strong>, for example) specifying a real endpoint path like:
         <ul style="text-align: left;">
-            <li><a href='#'><u><i>/members</i></u> with <strong>GET</strong> method for get all members</a></li>
-            <li><a href='#'><u><i>/members</i></u> with <strong>POST</strong> method and body data for add a new member</a></li>
-            <li><a href='#'><u><i>/members/< int:member_id></i></u> with <strong>GET</strong> method for get a member</a></li>
-            <li><a href='#'><u><i>/members/< int:member_id></i></u> with <strong>DELETE</strong> method for delete a member</a></li>
+            <li><u><i>/members/</i></u> with <strong>GET</strong> method for get all members</li>
+            <li><u><i>/member/</i></u> with <strong>POST</strong> method and valid body data for add a new member</li>
+            <li><u><i>/member/< int:member_id></i></u> with <strong>GET</strong> method for get a member</li>
+            <li><u><i>/member/< int:member_id></i></u> with <strong>DELETE</strong> method for delete a member</li>
         </ul></div>
         """

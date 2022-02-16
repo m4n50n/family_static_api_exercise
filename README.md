@@ -18,6 +18,8 @@
 
 Test the code by running `$ pipenv run test`
 
+🏆 *The current code passes all tests*
+
 ## Instructions 📄
 
 The API can be tested with [Postman](https://www.postman.com) by using the required *methods* and the *Gitpod* workspace URL.
